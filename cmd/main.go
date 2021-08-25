@@ -7,13 +7,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/go-chi/chi"
-	"github.com/go-chi/chi/middleware"
+	"github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5/middleware"
 	"github.com/kelseyhightower/envconfig"
 	"github.com/sirupsen/logrus"
 
-	api "github.com/gavincabbage/api.il2missionplanner.com"
-	"github.com/gavincabbage/api.il2missionplanner.com/log"
+	api "github.com/roccobarbi/api.il2missionplanner.com"
+	"github.com/roccobarbi/api.il2missionplanner.com/log"
 
 	_ "net/http/pprof"
 )
